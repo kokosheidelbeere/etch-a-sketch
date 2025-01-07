@@ -1,0 +1,13 @@
+.grid {
+    display: flex;        
+    flex-wrap: wrap;        
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.grid div {
+    outline: 1px solid black;
+    flex: 1 0 calc(100% / 16); /* 16x16 grid */
+    aspect-ratio: 1; /* Ensures squares */
+}
